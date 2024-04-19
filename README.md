@@ -2,11 +2,11 @@
 
 ## Información General
 
-- **Universidad:** [Nombre de la Universidad]
+- **Universidad:** Corporación universitaria del Huila CORHUILA
 - **Materia:** Programación 3
-- **Profesor:** [Nombre del Profesor]
+- **Profesor:** Julian Quimbayo
 - **Alumno:** Santiago Jara Hernández
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en [descripción breve del proyecto].
+Este proyecto consiste en el parcial proporcionado.
