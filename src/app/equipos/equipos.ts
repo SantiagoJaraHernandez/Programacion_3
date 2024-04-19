@@ -1,0 +1,55 @@
+export class Equipo {
+  nombre: string;
+  apellido: string;
+  rol: string;
+  lenguaje_programacion_favorito: string;
+  nombre_proyecto: string;
+  actividades: Equipos[];
+}
+
+export const EQUIPOS: Equipos[] = [
+  {
+      nombre: "Juan",
+      apellido: "Pérez",
+      rol: "Desarrollador Backend",
+      lenguaje_programacion_favorito: "Python",
+      nombre_proyecto: "Sistema de Gestión de Inventario",
+      actividades: [
+          { tarea: "Diseñar la base de datos", estado: "Completo" },
+          { tarea: "Implementar API para el manejo de inventario", estado: "En progreso" }
+      ]
+  },
+  {
+      nombre: "Maria",
+      apellido: "Gomez",
+      rol: "Desarrolladora Frontend",
+      lenguaje_programacion_favorito: "JavaScript",
+      nombre_proyecto: "Sistema de Gestión de Inventario",
+      actividades: [
+          { tarea: "Diseñar interfaz de usuario", estado: "En progreso" },
+          { tarea: "Implementar funcionalidades de la interfaz", estado: "Pendiente" }
+      ]
+  },
+  {
+      nombre: "Carlos",
+      apellido: "Martínez",
+      rol: "Ingeniero de DevOps",
+      lenguaje_programacion_favorito: "Go",
+      nombre_proyecto: "Sistema de Gestión de Inventario",
+      actividades: [
+          { tarea: "Configurar servidores", estado: "Completo" },
+          { tarea: "Automatizar despliegues", estado: "En progreso" }
+      ]
+  },
+  {
+      nombre: "Ana",
+      apellido: "López",
+      rol: "Analista de QA",
+      lenguaje_programacion_favorito: "Java",
+      nombre_proyecto: "Sistema de Gestión de Inventario",
+      actividades: [
+          { tarea: "Diseñar casos de prueba", estado: "En progreso" },
+          { tarea: "Ejecutar pruebas automatizadas", estado: "Pendiente" }
+      ]
+  }
+];

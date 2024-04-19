@@ -1,0 +1,26 @@
+<div class="card border-primary mb-3">
+    <div class="card-header">Equipos</div>
+    <div class="card-body text-primary">
+        <h5 class="card-title">Listado de Equipos</h5>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Rol</th>
+                    <th>Lenguaje de Programación Favorito</th>
+                    <th>Nombre del Proyecto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let equipo of equipos">
+                    <td>{{equipo.nombre}}</td>
+                    <td>{{equipo.apellido}}</td>
+                    <td>{{equipo.rol}}</td>
+                    <td>{{equipo.lenguaje_programacion_favorito}}</td>
+                    <td>{{equipo.nombre_proyecto}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
